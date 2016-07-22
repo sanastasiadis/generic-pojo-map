@@ -26,7 +26,6 @@ public class Converter extends BaseConverter {
 				}
 			}
 		}
-		System.out.println("document printout: " + map);
 		return map;
 	}
 
