@@ -9,7 +9,13 @@ public abstract class BaseConverter {
 				|| Long.class.equals(type)
 				|| Float.class.equals(type)
 				|| Double.class.equals(type)
-				|| Boolean.class.equals(type);
+				|| Boolean.class.equals(type)
+				|| int.class.equals(type)
+				|| long.class.equals(type)
+				|| float.class.equals(type)
+				|| double.class.equals(type)
+				|| char.class.equals(type)
+				|| boolean.class.equals(type);
 	}
 
 }
